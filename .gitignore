@@ -1,0 +1,36 @@
+# Diretórios de compilação e configurações locais do CMake
+/build/
+/build-*/
+/cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+/CMakeUserPresets.json
+/compile_commands.json
+/Makefile
+
+# Objetos, bibliotecas e executáveis gerados
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.dll
+*.dylib
+*.exe
+*.out
+/gerenciador_financeiro
+
+# Arquivos temporários de editores e do Linux
+*~
+*.swp
+*.swo
+*.tmp
+.Trash-*/
+.nfs*
+
+# Configurações locais do VS Code
+.vscode/
+*.code-workspace
